@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethiopian Ethnic Groups</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Ethiopian Ethnic Groups</h1>
-        <span id="science-fair">Science Fair</span>
+        Ethiopian Ethnic Groups
+        <div id="science-fair">Science Fair</div>
     </header>
 
     <div class="dropdown-container">
-        <label for="ethnicGroups">Select an Ethnic Group:</label>
-        <select id="ethnicGroups" onchange="showInfo()">
-            <option value="">-- Choose an ethnic group --</option>
+        <label for="ethnic-group">Select an ethnic group:</label>
+        <select id="ethnic-group">
+            <option value="amhara">Amhara</option>
+            <option value="oromo">Oromo</option>
+            <option value="tigray">Tigray</option>
         </select>
     </div>
 
-    <section id="info">
-        <p>Select an ethnic group to learn more.</p>
-    </section>
+    <div id="info">
+        <p>Information about the selected ethnic group will appear here.</p>
+    </div>
 
     <footer>
-        <p>© 2025 Ethiopian Heritage</p>
+        &copy; 2025 Ethiopian Ethnic Groups
     </footer>
+
 </body>
 </html>
